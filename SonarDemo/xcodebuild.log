@@ -1,0 +1,19 @@
+Build settings from command line:
+    COMPILER_INDEX_STORE_ENABLE = NO
+
+note: Using new build system
+
+** CLEAN SUCCEEDED **
+
+note: Using new build system
+note: Planning build
+note: Constructing build description
+Build system information
+error: SWIFT_VERSION '5.1' is unsupported, supported versions are: 3.0, 4.0, 4.2. (in target 'AEXML')
+
+Build system information
+warning: The Copy Bundle Resources build phase contains this target's Info.plist file '/Users/techjini/Desktop/SonarDemo/SonarDemo/Info.plist'. (in target 'SonarDemo')
+
+Build system information
+warning: duplicate output file '/var/root/Library/Developer/Xcode/DerivedData/SonarDemo-fcvoscqmhopdazdwqsrzhjkhsivt/Build/Products/Debug-iphonesimulator/SonarDemo.app/Info.plist' on task: ProcessInfoPlistFile /var/root/Library/Developer/Xcode/DerivedData/SonarDemo-fcvoscqmhopdazdwqsrzhjkhsivt/Build/Products/Debug-iphonesimulator/SonarDemo.app/Info.plist /Users/techjini/Desktop/SonarDemo/SonarDemo/Info.plist (in target 'SonarDemo')
+
