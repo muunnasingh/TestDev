@@ -27,9 +27,9 @@ platform :ios do
 
 Lane :custom_lane do |options|
   xcodebuild(
-	project: "",
-	scheme: "",
-	configuration: "",
+	project: "SonarDemo.xcodeproj",
+	scheme: "SonarDemo",
+	configuration: "Debug",
 	build: true,
 	destination: "generic/platform=iOS",
 	build_settings: {
