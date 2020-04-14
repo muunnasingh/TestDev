@@ -24,9 +24,21 @@ platform :ios do
 
   desc "Submit a new Beta Build to Apple TestFlight"
   desc "This will also make sure the profile is up to date"
-  lane :beta do
-    gym # Build your app - more options available
-  end 
+
+Lane :custom_lane do |options|
+  xcodebuild(
+	project: "",
+	scheme: "",
+	configuration: "",
+	build: true,
+	destination: "generic/platform=iOS",
+	build_settings: {
+		"CODE_SIGNING_REQUIRED" => "NO",
+		"CODE_SIGN_IDENTITY" => ""
+	}
+  )
+end
+
 
   # You can define as many lanes as you want
 
