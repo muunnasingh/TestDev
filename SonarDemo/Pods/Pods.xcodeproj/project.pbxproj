@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -29,19 +29,19 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		025E4745ADDE01C5C957867B90E773B9 /* AEXML-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AFB5C25EB0D30EDC6831EB7DD84EB1E /* AEXML-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0608DB0E4FA499C235A5FDB6F67E512A /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A8DC0F04795D055064B5A3C0413ADF /* Element.swift */; };
+		025E4745ADDE01C5C957867B90E773B9 /* AEXML-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D467EA22028D889927BFCBCB52F887C /* AEXML-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0608DB0E4FA499C235A5FDB6F67E512A /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2126CD4305BC341AC356C15DC5FD7 /* Element.swift */; };
 		3BCF2A98A4E658E7F61AFBFE2DE0DA8C /* Pods-SonarDemo-SonarDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B7316E19D4ED24C7EE6E73CC4567C87 /* Pods-SonarDemo-SonarDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		415CAB5AE7BEEC0076B69C105EC82C33 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9336BC811A67CB938FA17A7FA8412BEE /* Options.swift */; };
+		415CAB5AE7BEEC0076B69C105EC82C33 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773FCAC697AB08BD96209F90F8CB832F /* Options.swift */; };
 		56BA176C7DFBE7646DCAC97E097462A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		57EB808E634237B2F4686512FBA84E18 /* AEXML-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4950AB2BFFAAEA8E3A858189C98F1DAB /* AEXML-dummy.m */; };
+		57EB808E634237B2F4686512FBA84E18 /* AEXML-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C749031F0284217BB6F7DFEEFD2A77 /* AEXML-dummy.m */; };
 		63943639539EBEDAC8466C22E5394785 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		71F5F20ED04F7C7998F501A8A1595239 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21267EF643256AFCDEB96FD7ECDACCD /* Error.swift */; };
+		71F5F20ED04F7C7998F501A8A1595239 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FAF69AF13E93DDB3718BD2052F4996 /* Error.swift */; };
 		82E4EB4711AE4D90996B21C2985B57B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		8EAB07CF5642A287463D2622B47AA1E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		BA101B1B47BFF5AE1E99214767102F6E /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00B8341BB938D3E1BF482B4ABCCF145 /* Parser.swift */; };
+		BA101B1B47BFF5AE1E99214767102F6E /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E642E73D2D81EC8256BB69DA08CFBA3 /* Parser.swift */; };
 		CB4E48A1A36D5555C6F4B9BE64238E7A /* Pods-SonarDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80ACA11D256DE7BC1453FAC6756EE126 /* Pods-SonarDemoTests-dummy.m */; };
-		CC146A2FEE2FCEAAC68B5673270E7BD0 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF95B8598D9B95057039DFEB2DE13E4 /* Document.swift */; };
+		CC146A2FEE2FCEAAC68B5673270E7BD0 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B530CFF79985677C131E80C8479F1 /* Document.swift */; };
 		E8C72905F57ECE94358DDB13B516414E /* Pods-SonarDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 981803AEE3694D664DCC236861D65545 /* Pods-SonarDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F33454AFD16124BD47B5B74AD85E7E43 /* Pods-SonarDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FD04D29AF7A1B270CA8AF187D8AB8EB /* Pods-SonarDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F80F6BFD6D2779553ADBF0783F65EC59 /* Pods-SonarDemo-SonarDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2BD0E1855737668A76C47B25411F98 /* Pods-SonarDemo-SonarDemoUITests-dummy.m */; };
@@ -108,61 +108,64 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02F92253A9FBE7D4242133A4A2CF257F /* Crashlytics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Crashlytics.xcconfig; sourceTree = "<group>"; };
-		03E93A6290D069648C9D49182A047B6D /* AEXML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AEXML.xcconfig; sourceTree = "<group>"; };
+		0069741BD0FC55A2F22A98C2C73CB079 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
+		02EFDC5922003EDEDDF5148DC4C32C99 /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
+		09EB0374A7AF3E0DFF1FB1A2A6176EF6 /* AEXML.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AEXML.modulemap; sourceTree = "<group>"; };
+		0C034B7F0D7AE757CD2D4C347F6D58FE /* AEXML-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AEXML-Info.plist"; sourceTree = "<group>"; };
+		0D467EA22028D889927BFCBCB52F887C /* AEXML-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AEXML-umbrella.h"; sourceTree = "<group>"; };
 		0EE1D2710A6FF2E051BBF2A337B7E792 /* Pods-SonarDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SonarDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		0FFD1C4BB8FDD0A7ABD9317940AA21FB /* Pods-SonarDemo-SonarDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SonarDemo-SonarDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		19E2126CD4305BC341AC356C15DC5FD7 /* Element.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Element.swift; path = Sources/AEXML/Element.swift; sourceTree = "<group>"; };
+		202BFAD7971B9A63C429C52A9D6C4E1A /* AEXML.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AEXML.release.xcconfig; sourceTree = "<group>"; };
 		2A29D1842A4A67923C8AB53BBC65A47C /* Pods-SonarDemo-SonarDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SonarDemo-SonarDemoUITests.modulemap"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33466ECA88C59B6F6A69033209384CE8 /* AEXML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AEXML-prefix.pch"; sourceTree = "<group>"; };
 		33809EE1F91D2A54E57FE24A4B55659C /* Pods-SonarDemo-SonarDemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SonarDemo-SonarDemoUITests-Info.plist"; sourceTree = "<group>"; };
+		34EE68BC58B8FB9CC07F33E399AFC534 /* Crashlytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Crashlytics.debug.xcconfig; sourceTree = "<group>"; };
 		35927033F4E5FD702C0EC4B1C7EBE1D7 /* Pods-SonarDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SonarDemoTests.modulemap"; sourceTree = "<group>"; };
+		41D580C5240ED7195CCDFAF58FFA82E2 /* CLSAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = iOS/Crashlytics.framework/Headers/CLSAttributes.h; sourceTree = "<group>"; };
 		43AD48F940E7D737C7C6C37AE572A59B /* Pods_SonarDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SonarDemo.framework; path = "Pods-SonarDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4950AB2BFFAAEA8E3A858189C98F1DAB /* AEXML-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AEXML-dummy.m"; sourceTree = "<group>"; };
 		4B4D8430264C168A467339358E0B957D /* Pods-SonarDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SonarDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4CFF6BE9A0C5631A363D54451237C217 /* Fabric.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fabric.release.xcconfig; sourceTree = "<group>"; };
+		4E642E73D2D81EC8256BB69DA08CFBA3 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/AEXML/Parser.swift; sourceTree = "<group>"; };
 		550E0FF950F747BF0924C9C802E22969 /* Pods-SonarDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SonarDemoTests-Info.plist"; sourceTree = "<group>"; };
-		5AFB5C25EB0D30EDC6831EB7DD84EB1E /* AEXML-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AEXML-umbrella.h"; sourceTree = "<group>"; };
 		5FBCE141E1161D7F7AA239415E8058FB /* Pods-SonarDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SonarDemo-Info.plist"; sourceTree = "<group>"; };
 		5FD04D29AF7A1B270CA8AF187D8AB8EB /* Pods-SonarDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SonarDemo-umbrella.h"; sourceTree = "<group>"; };
+		65177E47625767248382437EEB8BEE75 /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Crashlytics.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
 		6A2BD0E1855737668A76C47B25411F98 /* Pods-SonarDemo-SonarDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SonarDemo-SonarDemoUITests-dummy.m"; sourceTree = "<group>"; };
 		6B7316E19D4ED24C7EE6E73CC4567C87 /* Pods-SonarDemo-SonarDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SonarDemo-SonarDemoUITests-umbrella.h"; sourceTree = "<group>"; };
+		6B7B530CFF79985677C131E80C8479F1 /* Document.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Document.swift; path = Sources/AEXML/Document.swift; sourceTree = "<group>"; };
+		716467D7949AE1F05000D85107BB31AF /* AEXML.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AEXML.debug.xcconfig; sourceTree = "<group>"; };
 		729EB68FFC082E9958AC28E16B3A1863 /* Pods_SonarDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SonarDemoTests.framework; path = "Pods-SonarDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		732785432131F40E86A0E4E5B0F7DE68 /* CLSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = iOS/Crashlytics.framework/Headers/CLSLogging.h; sourceTree = "<group>"; };
-		7BBEE16B207D1D774390AA32708DBB0D /* Fabric.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fabric.xcconfig; sourceTree = "<group>"; };
-		8032673C3B868E76EC95AD7883A1208B /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
+		773FCAC697AB08BD96209F90F8CB832F /* Options.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Options.swift; path = Sources/AEXML/Options.swift; sourceTree = "<group>"; };
+		79F450D3AECB095226411A60061E9AC6 /* CLSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = iOS/Crashlytics.framework/Headers/CLSLogging.h; sourceTree = "<group>"; };
 		80ACA11D256DE7BC1453FAC6756EE126 /* Pods-SonarDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SonarDemoTests-dummy.m"; sourceTree = "<group>"; };
-		81A8DC0F04795D055064B5A3C0413ADF /* Element.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Element.swift; path = Sources/AEXML/Element.swift; sourceTree = "<group>"; };
 		824CDBFAA7272605EB2227F5BA805184 /* Pods-SonarDemo-SonarDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SonarDemo-SonarDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		829F449264E4BDDB064A967183A93067 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
-		8718D0D8B49C6EE0A07D2AEF795F40A6 /* CLSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = iOS/Crashlytics.framework/Headers/CLSStackFrame.h; sourceTree = "<group>"; };
-		9336BC811A67CB938FA17A7FA8412BEE /* Options.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Options.swift; path = Sources/AEXML/Options.swift; sourceTree = "<group>"; };
-		9356C2BE29E7A0338AA16B18A14C37D9 /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Crashlytics.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
-		95154EE267BF566614DF1812346E7B0E /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
+		86BFA7BE1CDD33CDB4FC63BF1CEECF19 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
 		981803AEE3694D664DCC236861D65545 /* Pods-SonarDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SonarDemoTests-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A00B8341BB938D3E1BF482B4ABCCF145 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/AEXML/Parser.swift; sourceTree = "<group>"; };
-		A53106035F37C0BFF25C4BDA5EFC2D98 /* AEXML-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AEXML-Info.plist"; sourceTree = "<group>"; };
+		9EDEC7CA5755A6FAC9E4F865B383A944 /* CLSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = iOS/Crashlytics.framework/Headers/CLSStackFrame.h; sourceTree = "<group>"; };
 		A5499C3238E6128F52FCE5CBA70E8AB4 /* Pods-SonarDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SonarDemo.release.xcconfig"; sourceTree = "<group>"; };
 		AAFBC1A4A38ABFC7141DA2850DDE101E /* Pods_SonarDemo_SonarDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SonarDemo_SonarDemoUITests.framework; path = "Pods-SonarDemo-SonarDemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF7EC03673E7BE18DF4ED1033710E122 /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
+		B0C749031F0284217BB6F7DFEEFD2A77 /* AEXML-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AEXML-dummy.m"; sourceTree = "<group>"; };
 		B7F452C8575CD760062098924FC3A1D2 /* AEXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AEXML.framework; path = AEXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BACA847398C61FC137D76E6008E1FEA4 /* CLSAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = iOS/Crashlytics.framework/Headers/CLSAttributes.h; sourceTree = "<group>"; };
-		BFACB0C02B6A4A83931DD9F08C4B16CE /* AEXML.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AEXML.modulemap; sourceTree = "<group>"; };
-		C44A8E7B7DB5CF9B618AAA148AA318BF /* AEXML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AEXML-prefix.pch"; sourceTree = "<group>"; };
 		C594643C4C3D8D831655209CF6E0BD49 /* Pods-SonarDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SonarDemo.modulemap"; sourceTree = "<group>"; };
 		C9326C2DD2AB58EE70C48A741BC53AB9 /* Pods-SonarDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SonarDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		D094EB6A8BF293BFC9788F54FF7963CD /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
+		C96F7CB107BE790D35BEB5975CC970C2 /* Fabric.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fabric.debug.xcconfig; sourceTree = "<group>"; };
+		CC98CEAF77C7B77E773BA6BAC6B3564F /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
 		D440BADA2BE5F030C20E455688EA18E2 /* Pods-SonarDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SonarDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D7804805C7401EBD6DCBF6F0BE442642 /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
+		D5C8960D7D668F4CB14C5634027CF29E /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
+		D66894001ED10C4D6FD7F584C7EFB563 /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
 		DA3ABED4964A0A97313D14BC15E1C030 /* Pods-SonarDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SonarDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DB8A7391C86B9458F435857CCECF45C0 /* CLSReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSReport.h; path = iOS/Crashlytics.framework/Headers/CLSReport.h; sourceTree = "<group>"; };
 		E6BF82E6138B458DF28A89DBBCFCE467 /* Pods-SonarDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SonarDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E8E23BAFDE1BF5EFDB2D1B14CA0C697D /* Pods-SonarDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SonarDemo-frameworks.sh"; sourceTree = "<group>"; };
 		EDACAA4313A81B346F0FE50655B1DC52 /* Pods-SonarDemo-SonarDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SonarDemo-SonarDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EE048E43CBDFD2D805C3F85FF2C146BD /* Pods-SonarDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SonarDemo-dummy.m"; sourceTree = "<group>"; };
-		EFF95B8598D9B95057039DFEB2DE13E4 /* Document.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Document.swift; path = Sources/AEXML/Document.swift; sourceTree = "<group>"; };
 		F192CEF369F984FE4EFBAAEFBB0AC86A /* Pods-SonarDemo-SonarDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SonarDemo-SonarDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F21267EF643256AFCDEB96FD7ECDACCD /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/AEXML/Error.swift; sourceTree = "<group>"; };
+		F2CA64C80B6779AF1F0E6E8B0B5034B6 /* Crashlytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Crashlytics.release.xcconfig; sourceTree = "<group>"; };
 		F8C6922C83FD8FFF18F82698D1264215 /* Pods-SonarDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SonarDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		FA9880F316D5F1B54E2ABEF4B3BE94E3 /* CLSReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSReport.h; path = iOS/Crashlytics.framework/Headers/CLSReport.h; sourceTree = "<group>"; };
+		F9FAF69AF13E93DDB3718BD2052F4996 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/AEXML/Error.swift; sourceTree = "<group>"; };
 		FF070B0A54E013BA7E1A90BDDA02E8A3 /* Pods-SonarDemo-SonarDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SonarDemo-SonarDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -202,18 +205,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1138D6834EC9BDBB361B58DEB7FB6BCB /* Crashlytics */ = {
+		04E0790FD9A249694F9489639D11A672 /* Fabric */ = {
 			isa = PBXGroup;
 			children = (
-				9356C2BE29E7A0338AA16B18A14C37D9 /* ANSCompatibility.h */,
-				D7804805C7401EBD6DCBF6F0BE442642 /* Answers.h */,
-				BACA847398C61FC137D76E6008E1FEA4 /* CLSAttributes.h */,
-				732785432131F40E86A0E4E5B0F7DE68 /* CLSLogging.h */,
-				FA9880F316D5F1B54E2ABEF4B3BE94E3 /* CLSReport.h */,
-				8718D0D8B49C6EE0A07D2AEF795F40A6 /* CLSStackFrame.h */,
-				AF7EC03673E7BE18DF4ED1033710E122 /* Crashlytics.h */,
-				F12E4AAD59559F0250B1D1186C5D71E7 /* Frameworks */,
-				DBF33640ECF9FD91CF7FADB9409F1C56 /* Support Files */,
+				D66894001ED10C4D6FD7F584C7EFB563 /* FABAttributes.h */,
+				CC98CEAF77C7B77E773BA6BAC6B3564F /* Fabric.h */,
+				D7DE7B23081329121A1708CBC0228C13 /* Frameworks */,
+				B883FB4095AD76FA9635CC8C79B47A39 /* Support Files */,
+			);
+			name = Fabric;
+			path = Fabric;
+			sourceTree = "<group>";
+		};
+		0D2464C15BEB15065A47DF1926DCA249 /* Crashlytics */ = {
+			isa = PBXGroup;
+			children = (
+				65177E47625767248382437EEB8BEE75 /* ANSCompatibility.h */,
+				02EFDC5922003EDEDDF5148DC4C32C99 /* Answers.h */,
+				41D580C5240ED7195CCDFAF58FFA82E2 /* CLSAttributes.h */,
+				79F450D3AECB095226411A60061E9AC6 /* CLSLogging.h */,
+				DB8A7391C86B9458F435857CCECF45C0 /* CLSReport.h */,
+				9EDEC7CA5755A6FAC9E4F865B383A944 /* CLSStackFrame.h */,
+				D5C8960D7D668F4CB14C5634027CF29E /* Crashlytics.h */,
+				CDDA5528070A336BE35A44DF34E48EB8 /* Frameworks */,
+				CABC8F8EA6A94843D7E5E0CB9D22A5F4 /* Support Files */,
 			);
 			name = Crashlytics;
 			path = Crashlytics;
@@ -229,23 +244,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		289B1C011AA128A6F8603F5CCA1419DB /* Frameworks */ = {
+		33C05EF75222180948DE99776AB90459 /* AEXML */ = {
 			isa = PBXGroup;
 			children = (
-				829F449264E4BDDB064A967183A93067 /* Fabric.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		453AC80D2674282100559049887ACB71 /* AEXML */ = {
-			isa = PBXGroup;
-			children = (
-				EFF95B8598D9B95057039DFEB2DE13E4 /* Document.swift */,
-				81A8DC0F04795D055064B5A3C0413ADF /* Element.swift */,
-				F21267EF643256AFCDEB96FD7ECDACCD /* Error.swift */,
-				9336BC811A67CB938FA17A7FA8412BEE /* Options.swift */,
-				A00B8341BB938D3E1BF482B4ABCCF145 /* Parser.swift */,
-				B0AB256CC53F09B0C80127B03A2DA72D /* Support Files */,
+				6B7B530CFF79985677C131E80C8479F1 /* Document.swift */,
+				19E2126CD4305BC341AC356C15DC5FD7 /* Element.swift */,
+				F9FAF69AF13E93DDB3718BD2052F4996 /* Error.swift */,
+				773FCAC697AB08BD96209F90F8CB832F /* Options.swift */,
+				4E642E73D2D81EC8256BB69DA08CFBA3 /* Parser.swift */,
+				E802A610734DD816CCE0DD79050EF2A6 /* Support Files */,
 			);
 			name = AEXML;
 			path = AEXML;
@@ -268,33 +275,12 @@
 			path = "Target Support Files/Pods-SonarDemo";
 			sourceTree = "<group>";
 		};
-		5B687C2F2EE17320D18BB319667D58E6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7BBEE16B207D1D774390AA32708DBB0D /* Fabric.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Fabric";
-			sourceTree = "<group>";
-		};
-		60A4759DD606E08A90506B13EAF39E28 /* Fabric */ = {
-			isa = PBXGroup;
-			children = (
-				8032673C3B868E76EC95AD7883A1208B /* FABAttributes.h */,
-				D094EB6A8BF293BFC9788F54FF7963CD /* Fabric.h */,
-				289B1C011AA128A6F8603F5CCA1419DB /* Frameworks */,
-				5B687C2F2EE17320D18BB319667D58E6 /* Support Files */,
-			);
-			name = Fabric;
-			path = Fabric;
-			sourceTree = "<group>";
-		};
 		78E8CE020F90D4E04B406DC18CA778C3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				453AC80D2674282100559049887ACB71 /* AEXML */,
-				1138D6834EC9BDBB361B58DEB7FB6BCB /* Crashlytics */,
-				60A4759DD606E08A90506B13EAF39E28 /* Fabric */,
+				33C05EF75222180948DE99776AB90459 /* AEXML */,
+				0D2464C15BEB15065A47DF1926DCA249 /* Crashlytics */,
+				04E0790FD9A249694F9489639D11A672 /* Fabric */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -316,18 +302,14 @@
 			path = "Target Support Files/Pods-SonarDemo-SonarDemoUITests";
 			sourceTree = "<group>";
 		};
-		B0AB256CC53F09B0C80127B03A2DA72D /* Support Files */ = {
+		B883FB4095AD76FA9635CC8C79B47A39 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BFACB0C02B6A4A83931DD9F08C4B16CE /* AEXML.modulemap */,
-				03E93A6290D069648C9D49182A047B6D /* AEXML.xcconfig */,
-				4950AB2BFFAAEA8E3A858189C98F1DAB /* AEXML-dummy.m */,
-				A53106035F37C0BFF25C4BDA5EFC2D98 /* AEXML-Info.plist */,
-				C44A8E7B7DB5CF9B618AAA148AA318BF /* AEXML-prefix.pch */,
-				5AFB5C25EB0D30EDC6831EB7DD84EB1E /* AEXML-umbrella.h */,
+				C96F7CB107BE790D35BEB5975CC970C2 /* Fabric.debug.xcconfig */,
+				4CFF6BE9A0C5631A363D54451237C217 /* Fabric.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/AEXML";
+			path = "../Target Support Files/Fabric";
 			sourceTree = "<group>";
 		};
 		BA83CA9449FC7EAF0921045B6E1F573E /* Pods-SonarDemoTests */ = {
@@ -354,6 +336,24 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		CABC8F8EA6A94843D7E5E0CB9D22A5F4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				34EE68BC58B8FB9CC07F33E399AFC534 /* Crashlytics.debug.xcconfig */,
+				F2CA64C80B6779AF1F0E6E8B0B5034B6 /* Crashlytics.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Crashlytics";
+			sourceTree = "<group>";
+		};
+		CDDA5528070A336BE35A44DF34E48EB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86BFA7BE1CDD33CDB4FC63BF1CEECF19 /* Crashlytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -373,13 +373,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DBF33640ECF9FD91CF7FADB9409F1C56 /* Support Files */ = {
+		D7DE7B23081329121A1708CBC0228C13 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				02F92253A9FBE7D4242133A4A2CF257F /* Crashlytics.xcconfig */,
+				0069741BD0FC55A2F22A98C2C73CB079 /* Fabric.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Crashlytics";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E032C75EE13EA80C9BA4210F2503AA09 /* Products */ = {
@@ -393,12 +392,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F12E4AAD59559F0250B1D1186C5D71E7 /* Frameworks */ = {
+		E802A610734DD816CCE0DD79050EF2A6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				95154EE267BF566614DF1812346E7B0E /* Crashlytics.framework */,
+				09EB0374A7AF3E0DFF1FB1A2A6176EF6 /* AEXML.modulemap */,
+				B0C749031F0284217BB6F7DFEEFD2A77 /* AEXML-dummy.m */,
+				0C034B7F0D7AE757CD2D4C347F6D58FE /* AEXML-Info.plist */,
+				33466ECA88C59B6F6A69033209384CE8 /* AEXML-prefix.pch */,
+				0D467EA22028D889927BFCBCB52F887C /* AEXML-umbrella.h */,
+				716467D7949AE1F05000D85107BB31AF /* AEXML.debug.xcconfig */,
+				202BFAD7971B9A63C429C52A9D6C4E1A /* AEXML.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/AEXML";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -528,7 +534,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -772,40 +778,22 @@
 			};
 			name = Release;
 		};
-		598CEDB988AB7F76575600DF7C1724F6 /* Debug */ = {
+		5ADE7B0CAFAC00239A52ADA8FBB1D403 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03E93A6290D069648C9D49182A047B6D /* AEXML.xcconfig */;
+			baseConfigurationReference = F2CA64C80B6779AF1F0E6E8B0B5034B6 /* Crashlytics.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AEXML/AEXML-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AEXML/AEXML-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/AEXML/AEXML.modulemap";
-				PRODUCT_MODULE_NAME = AEXML;
-				PRODUCT_NAME = AEXML;
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		65E8432CA1AC1817F746BE6B5C4F067E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -871,9 +859,9 @@
 			};
 			name = Debug;
 		};
-		8548AC522B2EFC8F87C010366841E234 /* Debug */ = {
+		927603C72175524D52959C0F06EBDCD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BBEE16B207D1D774390AA32708DBB0D /* Fabric.xcconfig */;
+			baseConfigurationReference = C96F7CB107BE790D35BEB5975CC970C2 /* Fabric.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -887,39 +875,36 @@
 			};
 			name = Debug;
 		};
-		92E9B6A658ADD2B0CC1CE45C44D34431 /* Release */ = {
+		971FB51D9909ECEE6CD3DBFAD0AB0BF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03E93A6290D069648C9D49182A047B6D /* AEXML.xcconfig */;
+			baseConfigurationReference = 34EE68BC58B8FB9CC07F33E399AFC534 /* Crashlytics.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AEXML/AEXML-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AEXML/AEXML-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/AEXML/AEXML.modulemap";
-				PRODUCT_MODULE_NAME = AEXML;
-				PRODUCT_NAME = AEXML;
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3B658D0166174C9A2BACC6E0B1B3FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CFF6BE9A0C5631A363D54451237C217 /* Fabric.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -962,56 +947,6 @@
 			};
 			name = Release;
 		};
-		CDFCF98E7F9FB4406E116ED6500B19DD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02F92253A9FBE7D4242133A4A2CF257F /* Crashlytics.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		CE6F1011AE3E3CA432D5EB7085D197E9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BBEE16B207D1D774390AA32708DBB0D /* Fabric.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		D43B3DDF5D3BF6757ED79FD2D914D7C7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02F92253A9FBE7D4242133A4A2CF257F /* Crashlytics.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		E366E386C64A8E5DE71CEFBE98A10E28 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A5499C3238E6128F52FCE5CBA70E8AB4 /* Pods-SonarDemo.release.xcconfig */;
@@ -1051,6 +986,42 @@
 			};
 			name = Release;
 		};
+		F3E4B012D7C07641CF3F4C9121447DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 202BFAD7971B9A63C429C52A9D6C4E1A /* AEXML.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AEXML/AEXML-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AEXML/AEXML-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AEXML/AEXML.modulemap";
+				PRODUCT_MODULE_NAME = AEXML;
+				PRODUCT_NAME = AEXML;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		F7EECB4C54A591FCA2998A9385455B22 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 824CDBFAA7272605EB2227F5BA805184 /* Pods-SonarDemo-SonarDemoUITests.debug.xcconfig */;
@@ -1083,6 +1054,41 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA8F1D9AF1FBFBD7B1FA451C9850DE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 716467D7949AE1F05000D85107BB31AF /* AEXML.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AEXML/AEXML-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AEXML/AEXML-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AEXML/AEXML.modulemap";
+				PRODUCT_MODULE_NAME = AEXML;
+				PRODUCT_NAME = AEXML;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1171,8 +1177,8 @@
 		055EA5A1FFC43D5A1D319F239210F78E /* Build configuration list for PBXNativeTarget "AEXML" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				598CEDB988AB7F76575600DF7C1724F6 /* Debug */,
-				92E9B6A658ADD2B0CC1CE45C44D34431 /* Release */,
+				FA8F1D9AF1FBFBD7B1FA451C9850DE9F /* Debug */,
+				F3E4B012D7C07641CF3F4C9121447DDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1180,8 +1186,8 @@
 		13B185864087F75D556AC109B2D70BF7 /* Build configuration list for PBXAggregateTarget "Fabric" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8548AC522B2EFC8F87C010366841E234 /* Debug */,
-				CE6F1011AE3E3CA432D5EB7085D197E9 /* Release */,
+				927603C72175524D52959C0F06EBDCD1 /* Debug */,
+				B3B658D0166174C9A2BACC6E0B1B3FFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1225,8 +1231,8 @@
 		A084C0089544D8EEE7DA4C6D8EEEF9ED /* Build configuration list for PBXAggregateTarget "Crashlytics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D43B3DDF5D3BF6757ED79FD2D914D7C7 /* Debug */,
-				CDFCF98E7F9FB4406E116ED6500B19DD /* Release */,
+				971FB51D9909ECEE6CD3DBFAD0AB0BF4 /* Debug */,
+				5ADE7B0CAFAC00239A52ADA8FBB1D403 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

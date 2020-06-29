@@ -10,12 +10,11 @@
 		4824CEAC424AB27CAEE35A31 /* Pods_SonarDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D7FE45BCF1F05A258E9C76 /* Pods_SonarDemoTests.framework */; };
 		9B63A7F923C487AE006FD18A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B63A7F823C487AE006FD18A /* AppDelegate.swift */; };
 		9B63A7FB23C487AE006FD18A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B63A7FA23C487AE006FD18A /* ViewController.swift */; };
-		9B63A7FE23C487AE006FD18A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B63A7FC23C487AE006FD18A /* Main.storyboard */; };
 		9B63A80023C487B0006FD18A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B63A7FF23C487B0006FD18A /* Assets.xcassets */; };
-		9B63A80323C487B0006FD18A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B63A80123C487B0006FD18A /* LaunchScreen.storyboard */; };
 		9B63A80E23C487B0006FD18A /* SonarDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B63A80D23C487B0006FD18A /* SonarDemoTests.swift */; };
 		9B63A81923C487B0006FD18A /* SonarDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B63A81823C487B0006FD18A /* SonarDemoUITests.swift */; };
-		9B9E983523C4C9D9003D29D5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B63A80423C487B0006FD18A /* Info.plist */; };
+		9B6AABD824AA4D5700091B62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B63A7FC23C487AE006FD18A /* Main.storyboard */; };
+		9B6AABD924AA4D5700091B62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B63A80123C487B0006FD18A /* LaunchScreen.storyboard */; };
 		EE7F65C6F631C9B8D45B29A3 /* Pods_SonarDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BFA94364F75BE25328E4508 /* Pods_SonarDemo.framework */; };
 		F0904A49084B9DB2861B51AD /* Pods_SonarDemo_SonarDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5718AFA6E4FA3B1EBDBC26E /* Pods_SonarDemo_SonarDemoUITests.framework */; };
 /* End PBXBuildFile section */
@@ -275,10 +274,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B9E983523C4C9D9003D29D5 /* Info.plist in Resources */,
-				9B63A80323C487B0006FD18A /* LaunchScreen.storyboard in Resources */,
+				9B6AABD824AA4D5700091B62 /* Main.storyboard in Resources */,
+				9B6AABD924AA4D5700091B62 /* LaunchScreen.storyboard in Resources */,
 				9B63A80023C487B0006FD18A /* Assets.xcassets in Resources */,
-				9B63A7FE23C487AE006FD18A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
