@@ -36,6 +36,7 @@ class ViewController: UIViewController {
         }}))
         self.present(alert, animated: true, completion: nil)
     }
+    
     @IBAction func registerButtonAction(_ sender: UIButton) {
         let alert = UIAlertController(title: "Alert", message: "Register button clicked", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { action in
