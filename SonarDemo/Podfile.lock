@@ -1,3 +1,25 @@
-PODFILE CHECKSUM: cf5dc31dd25c94757f6ccf1c3e808e128694907f
+PODS:
+  - AEXML (4.5.0)
+  - Crashlytics (3.14.0):
+    - Fabric (~> 1.10.2)
+  - Fabric (1.10.2)
+
+DEPENDENCIES:
+  - AEXML
+  - Crashlytics
+  - Fabric
+
+SPEC REPOS:
+  trunk:
+    - AEXML
+    - Crashlytics
+    - Fabric
+
+SPEC CHECKSUMS:
+  AEXML: 0e8f1d874fa033ca6b3909452a8bc362faad46e6
+  Crashlytics: 540b7e5f5da5a042647227a5e3ac51d85eed06df
+  Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
+
+PODFILE CHECKSUM: 755fa4fc9fae45d9cd30ac023f796a043c70afc0
 
 COCOAPODS: 1.9.1
