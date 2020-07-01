@@ -176,7 +176,6 @@
 				9B63A7F123C487AD006FD18A /* Sources */,
 				9B63A7F223C487AD006FD18A /* Frameworks */,
 				9B63A7F323C487AD006FD18A /* Resources */,
-				37ED121053663CDF32FF6BC7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -214,7 +213,6 @@
 				9B63A81023C487B0006FD18A /* Sources */,
 				9B63A81123C487B0006FD18A /* Frameworks */,
 				9B63A81223C487B0006FD18A /* Resources */,
-				6C261C554C4DFADAF7E8783E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -297,40 +295,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		37ED121053663CDF32FF6BC7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SonarDemo/Pods-SonarDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SonarDemo/Pods-SonarDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SonarDemo/Pods-SonarDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6C261C554C4DFADAF7E8783E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SonarDemo-SonarDemoUITests/Pods-SonarDemo-SonarDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SonarDemo-SonarDemoUITests/Pods-SonarDemo-SonarDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SonarDemo-SonarDemoUITests/Pods-SonarDemo-SonarDemoUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		A51D78D5FC22122CFB68EBFB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
