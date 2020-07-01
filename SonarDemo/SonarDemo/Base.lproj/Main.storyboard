@@ -36,6 +36,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ak-Xs-hYc">
                                 <rect key="frame" x="100" y="293" width="175" height="30"/>
                                 <state key="normal" title="Register"/>
+                                <connections>
+                                    <action selector="registerButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="urH-fl-oUT"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -58,6 +61,7 @@
                     <connections>
                         <outlet property="loginButton" destination="WwO-7a-VNg" id="01y-Na-TCH"/>
                         <outlet property="password" destination="rbP-hT-xYB" id="jw9-Ge-wFC"/>
+                        <outlet property="registerButton" destination="0ak-Xs-hYc" id="5oV-QE-PEK"/>
                         <outlet property="username" destination="mzy-K8-VYI" id="SXb-8M-n8y"/>
                     </connections>
                 </viewController>
