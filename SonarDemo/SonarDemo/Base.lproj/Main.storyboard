@@ -33,16 +33,23 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ak-Xs-hYc">
+                                <rect key="frame" x="100" y="293" width="175" height="30"/>
+                                <state key="normal" title="Register"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="WwO-7a-VNg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="6gN-zc-jkK"/>
                             <constraint firstItem="mzy-K8-VYI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="GTw-Yq-44v"/>
+                            <constraint firstItem="0ak-Xs-hYc" firstAttribute="top" secondItem="WwO-7a-VNg" secondAttribute="bottom" constant="25" id="Trs-gz-LCM"/>
                             <constraint firstItem="rbP-hT-xYB" firstAttribute="top" secondItem="mzy-K8-VYI" secondAttribute="bottom" constant="30" id="YOH-ea-Hdu"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WwO-7a-VNg" secondAttribute="trailing" constant="100" id="YvB-kR-Yx9"/>
+                            <constraint firstItem="0ak-Xs-hYc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="aBs-Nr-gVl"/>
                             <constraint firstItem="rbP-hT-xYB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="cg0-8l-r3B"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mzy-K8-VYI" secondAttribute="trailing" constant="75" id="dk2-s7-nzu"/>
                             <constraint firstItem="WwO-7a-VNg" firstAttribute="top" secondItem="rbP-hT-xYB" secondAttribute="bottom" constant="50" id="gXg-0M-xUO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0ak-Xs-hYc" secondAttribute="trailing" constant="100" id="rws-Gl-3Ei"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rbP-hT-xYB" secondAttribute="trailing" constant="75" id="vWR-jm-8dp"/>
                             <constraint firstItem="mzy-K8-VYI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="90" id="y5P-ZX-hU6"/>
                         </constraints>
