@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var password: UITextField!
     @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var registerButton: UIButton!
+    @IBOutlet weak var statusLabel: UILabel!
     var nameName: String? = ""
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +25,8 @@ class ViewController: UIViewController {
     @IBAction func loginButtonAction(_ sender: UIButton) {
         let alert = UIAlertController(title: "Alert", message: "Login button clicked", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { action in
-              switch action.style{
+            self.statusLabel.text = "login clicked"
+            switch action.style{
               case .default:
                     print("default")
 
@@ -40,7 +42,8 @@ class ViewController: UIViewController {
     @IBAction func registerButtonAction(_ sender: UIButton) {
         let alert = UIAlertController(title: "Alert", message: "Register button clicked", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { action in
-              switch action.style{
+            self.statusLabel.text = "register clicked"
+            switch action.style{
               case .default:
                     print("default")
 
